@@ -146,7 +146,12 @@ PERSONA personas[SIZE];
 void makePersonas();
 void printPersonas();
 
+int particion(int *, int, int);
+void quickSort(int *, int, int);
+
 void Altura(PERSONA *, int);
 void Pais(PERSONA *, int);
+void Telefono(PERSONA *, int);
+void Nombre(PERSONA *, int);
 
 int main(int, const char **);
